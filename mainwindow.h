@@ -5,6 +5,8 @@
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QPushButton>
+#include <QFormLayout>
+#include <QLabel>
 #include <zycie.h>
 
 namespace Ui {
@@ -26,9 +28,14 @@ private:
 
     QVBoxLayout *layout;
     QHBoxLayout *paseklayout;
+    QHBoxLayout *dollayout;
+    QVBoxLayout *pasekParametrow;
+    QFormLayout *kontrolki;
+
     QPushButton *startGuzik;
     QPushButton *stopGuzik;
 
+    QLabel *nameLabel;
 
 
 };
