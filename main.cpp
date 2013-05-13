@@ -8,6 +8,6 @@ int main(int argc, char *argv[])
     w.show();
     
     // test Kuba
-
+    // test Kubek
     return a.exec();
 }
